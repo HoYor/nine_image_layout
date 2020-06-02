@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NineGridImageLayout">
+        <attr name="ngl_longPictureHeightScale" format="float"/>
+        <attr name="ngl_singleImageSize" format="dimension"/>
+        <attr name="ngl_singleImageRatio" format="float"/>
+        <attr name="ngl_gridSpacing" format="dimension"/>
+        <attr name="ngl_maxSize" format="integer"/>
+        <attr name="ngl_mode" format="enum">
+            <enum name="fill" value="0"/>
+            <enum name="grid" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
